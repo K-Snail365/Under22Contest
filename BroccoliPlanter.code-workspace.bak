@@ -1,0 +1,23 @@
+﻿{
+	"folders": [
+		{
+			"name": "BroccoliPlanter",
+			"path": "."
+		},
+		{
+			"name": "BroccoliPlanter",
+			"path": "Game/Game"
+		},
+		{
+			"name": "Resources",
+			"path": "Game/Resources"
+		},
+		{
+			"name": "Engine",
+			"path": "BroccoliEngine/Engine"
+		}
+	],
+	"settings": {}
+}
+
+
