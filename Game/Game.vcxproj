@@ -27,7 +27,11 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="AICanvas.cpp" />
     <ClCompile Include="Source\GameMain.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="AICanvas.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>18.0</VCProjectVersion>
