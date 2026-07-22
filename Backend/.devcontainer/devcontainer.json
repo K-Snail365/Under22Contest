@@ -1,7 +1,8 @@
 {
   "name": "GCP Python Development",
   "build": {
-    "dockerfile": "Dockerfile"
+    "dockerfile": "Dockerfile",
+    "context": ".."
   },
   "features": {
     "ghcr.io/devcontainers/features/terraform:1": {
@@ -11,6 +12,13 @@
   "containerEnv": {
     "CLOUDSDK_CORE_PROJECT": "u22procon-2026",
     "GOOGLE_CLOUD_PROJECT": "u22procon-2026"
+  },
+  "forwardPorts": [8080],
+  "portsAttributes": {
+    "8080": {
+      "label": "Local cells proxy",
+      "onAutoForward": "silent"
+    }
   },
   "mounts": [
     "source=gcloud-config,target=/home/vscode/.config/gcloud,type=volume"
