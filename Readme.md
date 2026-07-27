@@ -1,3 +1,2 @@
 ﻿# Under22Contest
-
 g
